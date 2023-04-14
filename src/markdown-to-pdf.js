@@ -109,7 +109,8 @@ const PDFLayout = {
 	format: 'A4',
 	scale: .9,
 	displayHeaderFooter: false,
-	margin: {top: 50, bottom: 50, right: 50, left: 50}
+	margin: {top: 50, bottom: 50, right: 50, left: 50},
+	timeout: 0
 };
 
 class MarkdownToPDF {
